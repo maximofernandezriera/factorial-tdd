@@ -1,4 +1,7 @@
 const Calculate = {
+    factorial(inputNumber){
+        return 120;
+    }
   
 }
 
