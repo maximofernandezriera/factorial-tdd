@@ -4,7 +4,7 @@
   "description": "",
   "main": "index_test.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test --reporter mochawesome"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "chai": "^4.3.4",
     "install": "^0.13.0",
     "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1",
     "npm": "^8.1.3"
   }
 }

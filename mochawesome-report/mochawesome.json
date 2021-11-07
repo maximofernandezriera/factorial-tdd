@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-07T20:35:02.717Z",
+    "end": "2021-11-07T20:35:02.720Z",
+    "duration": 3,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a5783b80-7bd3-4512-b652-220c121fad0c",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6bbc2eda-a1c1-4407-9cbd-656509b3be03",
+          "title": "Calculate",
+          "fullFile": "/home/maximo/factorial-tdd/test/index_test.js",
+          "file": "/test/index_test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "4acffe74-15ab-446d-8407-4faec54bf8df",
+              "title": ".factorial",
+              "fullFile": "/home/maximo/factorial-tdd/test/index_test.js",
+              "file": "/test/index_test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "returns the correct value of 5!",
+                  "fullTitle": "Calculate .factorial returns the correct value of 5!",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// Setup\nconst inputNumber = 5;\nconst expectedResult = 120;\n\n// Test logic\nconst result = Calculate.factorial(inputNumber);\n// Verify\n\nassert.equal(result, expectedResult);",
+                  "err": {},
+                  "uuid": "9565bac7-3bc5-4d74-ba62-93fa24abec2f",
+                  "parentUUID": "4acffe74-15ab-446d-8407-4faec54bf8df",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "returns the correct value of 3!",
+                  "fullTitle": "Calculate .factorial returns the correct value of 3!",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// Setup\n  \nconst inputNumber  = 3;\nconst expectedResult = 6;\n\n// Test logic\n  \nconst result = Calculate.factorial(inputNumber);\n  \n// Verify\n\nassert.equal(result, expectedResult);",
+                  "err": {},
+                  "uuid": "d77f8cd9-8951-48ef-a02f-9987e6d08e32",
+                  "parentUUID": "4acffe74-15ab-446d-8407-4faec54bf8df",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "returns the correct value of 0!",
+                  "fullTitle": "Calculate .factorial returns the correct value of 0!",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// Setup\n    \nconst inputNumber  = 0;\nconst expectedResult = 1;\n\n// Test logic\n    \nconst result = Calculate.factorial(inputNumber);\n    \n// Verify\n\nassert.equal(result, expectedResult);",
+                  "err": {},
+                  "uuid": "23109d5c-8cbd-499a-9c8c-f737b738f812",
+                  "parentUUID": "4acffe74-15ab-446d-8407-4faec54bf8df",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "9565bac7-3bc5-4d74-ba62-93fa24abec2f",
+                "d77f8cd9-8951-48ef-a02f-9987e6d08e32",
+                "23109d5c-8cbd-499a-9c8c-f737b738f812"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.1.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}
