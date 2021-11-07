@@ -1,6 +1,7 @@
 const Calculate = {
     factorial(inputNumber){
         
+        // maximum or minimum operating parameter
         if (inputNumber==0){
             return 1;
         }
