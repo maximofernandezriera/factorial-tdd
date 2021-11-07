@@ -21,7 +21,7 @@ describe('Calculate', () => {
       it('returns the correct value of 3!', () => {
         // Setup
   
-        const inputNumber = 3;
+        const inputNumber  = 3;
         const expectedResult = 6;
         
         // Test logic
@@ -32,6 +32,22 @@ describe('Calculate', () => {
         
         assert.equal(result, expectedResult);
         });
+
+        // 0! case
+        it('returns the correct value of 0!', () => {
+          // Setup
+    
+          const inputNumber  = 0;
+          const expectedResult = 1;
+          
+          // Test logic
+    
+          const result = Calculate.factorial(inputNumber);
+    
+          // Verify
+          
+          assert.equal(result, expectedResult);
+          });
 
   });
 });
