@@ -1,0 +1,25 @@
+{
+  "name": "factorial-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index_test.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximofernandezriera/factorial-tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximofernandezriera/factorial-tdd/issues"
+  },
+  "homepage": "https://github.com/maximofernandezriera/factorial-tdd#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "install": "^0.13.0",
+    "mocha": "^9.1.3",
+    "npm": "^8.1.3"
+  }
+}
